@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h5 {
+    letter-spacing: 0.5px;
+}
+
+.alert-info {
+    background-color: #e9f7fd;
+    color: #31708f;
+    border: 1px solid #bce8f1;
+}
+
+.list-group-item {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+}
